@@ -37,6 +37,11 @@ The system maintains a database of doctors, patients and appointments
 4. Стартиране:
    uvicorn app.main:app --reload
 
+### API документация
+
+След стартиране на проекта, Swagger документацията е достъпна на:
+http://127.0.0.1:8000/docs
+
 
 ## Тестове
 pytest -v
